@@ -166,7 +166,6 @@ resource "aws_security_group" "allow_all" {
 
   }
 
-  aws_route_table_association
 
 
 
