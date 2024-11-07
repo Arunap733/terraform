@@ -7,11 +7,6 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
-provider "aws" {
-  region = "ap-south-1"
-}
-
 # Create a VPC
 resource "aws_vpc" "MYVPC" {
   cidr_block       = "10.0.0.0/16"
